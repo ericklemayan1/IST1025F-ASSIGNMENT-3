@@ -12,4 +12,4 @@ celsius = convert(fahrenheit)
 if celsius > 20:
     print("IT'S HOT HERE.")
 else:
-    print("It'S COLD HERE.")
+    print("IT'S COLD HERE.")
