@@ -7,7 +7,7 @@ def main():
 
     # Get the temperature
     for day in day_of_week:
-        temp = float(input(f"Enter the temperature for {day}: "))  
+        temp = eval(input(f"Enter the temperature for {day}: "))  
         temperatures.append(temp) # Store temperature in the list
 
     # Calculate
