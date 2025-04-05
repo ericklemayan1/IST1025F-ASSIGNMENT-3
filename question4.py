@@ -23,9 +23,11 @@ for i in range(num_salesmen):
 
 # Print results
 print("\nSales Report:")
+print("------------------------------------------------------------")
 print("Name      Item1  Item2  Item3  Item4  Item5  Total")
+print("------------------------------------------------------------")
 
 for data in sales_data:
     print(data[0], "   ", data[1], "   ", data[2], "   ", data[3], "   ", data[4], "   ", data[5], "   ", data[6])
-
+print("------------------------------------------------------------")
 print("Grand Total:", grand_total)
